@@ -11,6 +11,7 @@ The landing page features a **dark/light mode toggle**, allowing users to custom
 - **Dark/Light Mode for theme customization**
 - **Responsive Design for all devices**
 - **UI/UX Design Best Practices for usability and visual appeal**
+- **Personalized Cursor**
 
 # **📷 Screenshots**
 ![Screenshot](./screenshot/img1.PNG)  
