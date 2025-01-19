@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { ArrowUpRightFromSquare } from 'lucide-react'
 import Button from './Button'
+import 'aos/dist/aos.css';
 
 const Articles = () => {
   return (
@@ -11,8 +12,8 @@ const Articles = () => {
 
         <h2 className='font-bold text-3xl sm:text-5xl lg:text-6xl sm:w-4/5 text-zinc-900 dark:text-white'>Stay Ahead with Our Latest Articles</h2>
 
-        <div className='max-w-full m-auto flex lg:flex-row flex-col gap-4 mt-12 sm:overflow-x-auto'>
-            <div>
+        <div className='max-w-full m-auto flex lg:flex-row flex-col gap-4 mt-12'>
+            <div data-aos="fade-up">
                 <Image src='/article1.jpg' alt='Image 1' width={2000} height={2000} className='rounded-3xl my-10 cursor-pointer transition-all hover:brightness-50 duration-500 sm:max-w-[450px] h-[450px] object-cover'/>
 
                 <span className='relative bottom-[29rem] lg:bottom-[64%] left-[1rem] p-2 text-white bg-blue-600 rounded-lg pointer-events-none select-none'>Marketing</span>
@@ -31,7 +32,7 @@ const Articles = () => {
 
             </div>
 
-            <div>
+            <div data-aos="fade-up">
                 <Image src='/article2.jpg' alt='Image 2' width={2000} height={2000} className='rounded-3xl my-10 cursor-pointer transition-all hover:brightness-50 duration-500 sm:max-w-[450px] h-[450px] object-cover'/>
 
                 <span className='relative bottom-[29rem] lg:bottom-[64%] left-[1rem] p-2 text-white bg-blue-600 rounded-lg pointer-events-none select-none'>Marketing</span>
@@ -48,7 +49,7 @@ const Articles = () => {
                     <Link href='/' className='text-gray-600 font-semibold flex items-center text-xl hover:underline gap-2'>Read Insight <ArrowUpRightFromSquare /></Link>
             </div>
 
-            <div>
+            <div data-aos="fade-up">
                 <Image src='/article3.jpg' alt='Image 3' width={2000} height={2000} className='rounded-3xl my-10 cursor-pointer transition-all hover:brightness-50 duration-500 sm:max-w-[450px] h-[450px] object-cover'/>
 
                     <span className='relative bottom-[29rem] lg:bottom-[64%] left-[1rem] p-2 text-white bg-blue-600 rounded-lg pointer-events-none select-none'>ROI</span>
