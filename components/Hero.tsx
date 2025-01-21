@@ -32,7 +32,7 @@ const Hero = () => {
        
        <div className='max-w-[90%] m-auto flex flex-col sm:grid grid-cols-2 items-center gap-12 mt-32'>
           <div>
-            <h1 className='font-semibold text-4xl sm:text-5xl' data-aos="fade-up">Our help companies accelerate their growth
+            <h1 className='font-semibold text-4xl sm:text-5xl text-zinc-900' data-aos="fade-up">Our help companies accelerate their growth
             aligning your people with your business strategy.</h1>
 
             <p className='my-5' data-aos="fade-up">Innovation is our main banner, we help companies connect with customers and make them more engaged.</p>
