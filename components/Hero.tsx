@@ -15,10 +15,10 @@ const Hero = () => {
   return (
     <div className='max-w-[90%] m-auto mt-12 sm:mt-16'>
 
-      <div className='flex items-center flex-col gap-10' data-aos="fade-up">
-      <h1 className='text-xl sm:text-3xl font-medium text-center text-blue-600'>Expand Your Reach Across All Platforms.</h1>
+      <div className='flex items-center flex-col gap-5 sm:gap-10' data-aos="fade-up">
+      <h1 className='sm:text-3xl font-medium text-center text-blue-600'>Expand Your Reach Across All Platforms.</h1>
 
-      <h2 className='text-center text-[2.4rem] leading-[3rem] sm:text-7xl font-semibold sm:leading-[6rem] text-zinc-900 dark:text-white'>Create, manage and deliver<br />
+      <h2 className='text-center text-[1.8rem] sm:text-7xl font-semibold sm:leading-[6rem] text-zinc-900 dark:text-white'>Create, manage and deliver<br />
       advertisements on platforms.</h2>
 
       <p className='text-center sm:text-xl w-4/5'>We craft innovative strategies that connect your brand with the right audience. Let's transform your vision into measurable results and take your business to the next level.</p>
@@ -32,7 +32,7 @@ const Hero = () => {
        
        <div className='max-w-[90%] m-auto flex flex-col sm:grid grid-cols-2 items-center gap-12 mt-32'>
           <div>
-            <h1 className='font-semibold text-4xl sm:text-5xl text-zinc-900' data-aos="fade-up">Our help companies accelerate their growth
+            <h1 className='font-semibold text-4xl sm:text-5xl' data-aos="fade-up">Our help companies accelerate their growth
             aligning your people with your business strategy.</h1>
 
             <p className='my-5' data-aos="fade-up">Innovation is our main banner, we help companies connect with customers and make them more engaged.</p>
